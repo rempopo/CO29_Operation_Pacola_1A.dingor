@@ -17,7 +17,7 @@ A "Platoon Leader"			TO "kit_spec_pl"	 KIT
 , A "1'1 Squad Leader"			TO "kit_spec_sl"	 KIT
 , A "1'2 Squad Leader"			TO "kit_spec_sl"	 KIT
 , A "1'3 Squad Leader"			TO "kit_spec_sl"	 KIT
-, A "1'6 Platoon Leader"		TO "kit_spec_pl"	 KIT
+, A "1'6 Platoon Leader"		TO "kit_spec1_pl"	 KIT
 , A "RED - FTL"					TO "kit_spec_ftl"	 KIT
 , A "BLUE - FTL"				TO "kit_spec_ftl"	 KIT
 , A "Automatic Rifleman"		TO "kit_spec_ar"	 KIT

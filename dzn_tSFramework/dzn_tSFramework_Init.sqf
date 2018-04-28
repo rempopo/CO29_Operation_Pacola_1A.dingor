@@ -21,11 +21,11 @@ tSF_module_CCP = true;
 tSF_module_FARP = true;
 tSF_module_Interactives = false;
 tSF_module_ACEActions = true;
-tSF_module_AirborneSupport = false;
+tSF_module_AirborneSupport = true;
 tSF_module_ArtillerySupport = false;
 
 tSF_module_EditorVehicleCrew = false;
-tSF_module_EditorUnitBehavior = false;
+tSF_module_EditorUnitBehavior = true;
 tSF_module_EditorRadioSettings = false;
 
 tSF_module_POM = true;

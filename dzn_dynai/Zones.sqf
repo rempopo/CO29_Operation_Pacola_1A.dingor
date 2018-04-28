@@ -8,7 +8,7 @@
 	/* Groups: */
 	,[
 		[
-			3, /* Groups quantity */
+			1, /* Groups quantity */
 			/* Units */
 			[
 				["O_Soldier_F", [], "kit_random_mex"]

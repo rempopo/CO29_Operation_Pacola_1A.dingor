@@ -56,8 +56,8 @@
 #define spec_h ["rhsusf_opscore_fg_pelt_nsw","rhsusf_opscore_bk_pelt","rhsusf_opscore_ut_pelt","rhsusf_opscore_paint_pelt_nsw","TRYK_H_headsetcap_od","TRYK_ESS_CAP_OD"]
 #define spec_g ["rhs_googles_clear","rhsusf_oakley_goggles_clr",""]
 
-#define spec_w_r ["rhs_weap_m4a1_blockII","rhs_weap_m4_carryhandle_mstock","rhs_weap_m4a1_carryhandle_pmag","CUP_arifle_Mk16_CQC_SFG","rhs_weap_hk416d10","rhs_weap_m16a4_carryhandle","rhs_weap_mk18"]
-#define spec_a_r ["30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag"]
+#define spec_w_r ["rhs_weap_m4a1_blockII","rhs_weap_m4_carryhandle_mstock","rhs_weap_m4a1_carryhandle_pmag","CUP_arifle_Mk16_CQC_SFG","rhs_weap_hk416d10","rhs_weap_mk18"]
+#define spec_a_r ["30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag"]
 
 #define spec_w_o ["rhsusf_acc_eotech_552","rhsusf_acc_compm4","rhsusf_acc_T1_high","rhsusf_acc_RX01_NoFilter","rhsusf_acc_EOTECH",""]
 #define spec_w_h ["rhsusf_acc_grip3","rhsusf_acc_grip2"]
@@ -65,33 +65,34 @@
 #define spec_w_ar ["CUP_lmg_m249_pip3","CUP_lmg_m249_pip2"]
 #define spec_a_ar ["CUP_100Rnd_TE4_Green_Tracer_556x45_M249","CUP_100Rnd_TE4_Green_Tracer_556x45_M249"]
 
-#define spec_w_gr ["rhs_weap_m4a1_m203s","rhs_weap_m16a4_carryhandle_M203","rhs_weap_m4a1_blockII_M203","CUP_arifle_Mk16_CQC_EGLM","rhs_weap_hk416d145_m320","rhs_weap_mk18_m320"]
-#define spec_a_gr ["30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag"]
+#define spec_w_gr ["rhs_weap_m4a1_m203s","rhs_weap_m4a1_blockII_M203","CUP_arifle_Mk16_CQC_EGLM","rhs_weap_hk416d145_m320","rhs_weap_mk18_m320"]
+#define spec_a_gr ["30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag"]
 
 cargo_kit_spec = [
     [],
-	[["30Rnd_556x45_Stanag",60],["SmokeShell",10],["CUP_100Rnd_TE4_Green_Tracer_556x45_M249",20],["rhs_mag_m67",10],["1Rnd_HE_Grenade_shell",100],["DemoCharge_Remote_Mag",5]],
-	[["ACE_fieldDressing",20],["ACE_packingBandage",20],["ACE_elasticBandage",20],["ACE_tourniquet",4],["ACE_morphine",5],["ACE_epinephrine",5],["ACE_quikclot",20],["ACE_Clacker",5]],
+	[["30Rnd_556x45_Stanag",20],["SmokeShell",10],["CUP_100Rnd_TE4_Green_Tracer_556x45_M249",6],["rhs_mag_m67",10],["1Rnd_HE_Grenade_shell",20],["DemoCharge_Remote_Mag",5]],
+	[["ACE_fieldDressing",20],["ACE_packingBandage",20],["ACE_elasticBandage",20],["ACE_tourniquet",4],["ACE_morphine",5],["ACE_epinephrine",5],["ACE_quikclot",20],["ACE_Clacker",5],["TRYK_H_headsetcap_od",5],["TRYK_ESS_CAP_OD",5]],
 	[]
 ];
 
-kit_spec_pl = [
+kit_spec1_pl = [
 	["<EQUIPEMENT >>  ",spec_u,spec_v,"tf_rt1523g","CUP_H_PMC_Cap_Back_PRR_Grey",""],
 	["<PRIMARY WEAPON >>  ","rhsusf_weap_MP7A2_grip3","rhsusf_mag_40Rnd_46x30_FMJ",["","","rhsusf_acc_EOTECH","rhsusf_acc_grip3"]],
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
 	["<HANDGUN WEAPON >>  ","","",["","","",""]],
-	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS],
+	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS_L],
 	["<UNIFORM ITEMS >> ",[UNIFORM_ITEMS]],
 	["<VEST ITEMS >> ",[["HandGrenade",2],["1Rnd_HE_Grenade_shell",8],["rhsusf_mag_40Rnd_46x30_JHP",5]]],
 	["<BACKPACK ITEMS >> ",[]]
 ];
 
+
 kit_spec_sl = [
-	["<EQUIPEMENT >>  ",spec_u,spec_v,"tf_rt1523g","CUP_H_PMC_Cap_PRR_Tan",""],
+	["<EQUIPEMENT >>  ",spec_u,spec_v,"tf_rt1523g","CUP_H_PMC_Cap_Back_PRR_Grey",""],
 	["<PRIMARY WEAPON >>  ","rhsusf_weap_MP7A2_grip3","rhsusf_mag_40Rnd_46x30_FMJ",["","","rhsusf_acc_EOTECH","rhsusf_acc_grip3"]],
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
 	["<HANDGUN WEAPON >>  ","","",["","","",""]],
-	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS],
+	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS_L],
 	["<UNIFORM ITEMS >> ",[UNIFORM_ITEMS]],
 	["<VEST ITEMS >> ",[["HandGrenade",2],["1Rnd_HE_Grenade_shell",8],["rhsusf_mag_40Rnd_46x30_JHP",5]]],
 	["<BACKPACK ITEMS >> ",[["SmokeShellGreen",2]]]
@@ -155,7 +156,7 @@ kit_spec_r = [
 #define mex_a_hg ["CUP_30Rnd_9x19_UZI","CUP_6Rnd_45ACP_M","CUP_17Rnd_9x19_glock17"]
 
 kit_random_mex = [
-    "kit_mex_r","kit_mex_r"
+    "kit_mex_r","kit_mex_r","kit_mex_r","kit_mex_r"
     ,"kit_mex_hg"	
 ];
    
