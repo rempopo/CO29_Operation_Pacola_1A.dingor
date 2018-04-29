@@ -1,0 +1,12 @@
+"####### tSF File Sweeper Engaged #######" 
+Mission directory:     C:\Users\lim\Documents\Arma 3\mpmissions\CO29_Operation_Pacola_1A.dingor\ 
+Mission fodler name:   CO29_Operation_Pacola_1A 
+Removing tSF Helpers 
+Removing DynAI Helpers 
+Removing unused tSF Modules 
+    Folder is not used: Removing ArtillerySupport 
+    Folder is not used: Removing Interactives 
+    Folder is not used: Removing EditorVehicleCrew 
+    Folder is not used: Removing EditorRadioSettings 
+    Folder is not used: Removing Conversations 
+Done! 
