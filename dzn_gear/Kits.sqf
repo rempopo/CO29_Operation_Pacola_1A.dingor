@@ -81,7 +81,7 @@ kit_spec1_pl = [
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
 	["<HANDGUN WEAPON >>  ","","",["","","",""]],
 	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS_L],
-	["<UNIFORM ITEMS >> ",[UNIFORM_ITEMS]],
+	["<UNIFORM ITEMS >> ",[UNIFORM_ITEMS_L]],
 	["<VEST ITEMS >> ",[["HandGrenade",2],["1Rnd_HE_Grenade_shell",8],["rhsusf_mag_40Rnd_46x30_JHP",5]]],
 	["<BACKPACK ITEMS >> ",[]]
 ];
@@ -93,7 +93,7 @@ kit_spec_sl = [
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
 	["<HANDGUN WEAPON >>  ","","",["","","",""]],
 	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS_L],
-	["<UNIFORM ITEMS >> ",[UNIFORM_ITEMS]],
+	["<UNIFORM ITEMS >> ",[UNIFORM_ITEMS_L]],
 	["<VEST ITEMS >> ",[["HandGrenade",2],["1Rnd_HE_Grenade_shell",8],["rhsusf_mag_40Rnd_46x30_JHP",5]]],
 	["<BACKPACK ITEMS >> ",[["SmokeShellGreen",2]]]
 ];
@@ -103,8 +103,8 @@ kit_spec_ftl = [
 	["<PRIMARY WEAPON >>  ",spec_w_r,spec_a_r,["","","rhsusf_acc_ACOG_RMR",""]],
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
 	["<HANDGUN WEAPON >>  ","","",["","","",""]],
-	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS],
-	["<UNIFORM ITEMS >> ",[UNIFORM_ITEMS]],
+	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS_L],
+	["<UNIFORM ITEMS >> ",[UNIFORM_ITEMS_L]],
 	["<VEST ITEMS >> ",[["HandGrenade",2],["30Rnd_556x45_Stanag",8]]],
 	["<BACKPACK ITEMS >> ",[]]
 ];
@@ -114,7 +114,7 @@ kit_spec_gr = [
 	["<PRIMARY WEAPON >>  ",spec_w_gr,spec_a_gr,["","",spec_w_o,""]],
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
 	["<HANDGUN WEAPON >>  ","rhsusf_weap_m9","rhsusf_mag_15Rnd_9x19_JHP",["","","",""]],
-	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS],
+	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS_L],
 	["<UNIFORM ITEMS >> ",[UNIFORM_ITEMS]],
 	["<VEST ITEMS >> ",[["HandGrenade",2],["30Rnd_556x45_Stanag",8],["1Rnd_HE_Grenade_shell",8]]],
 	["<BACKPACK ITEMS >> ",[]]
